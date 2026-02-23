@@ -1,1 +1,9 @@
-# Project: Relay-Controlled Sound Synthesizer
+# Exercise 1.1 - Pattern Printing
+def print_pattern():
+    n = 3  # number of rows to the middle
+    for i in range(-n, n+1):
+        spaces = abs(i)
+        pattern = ' '.join(['X'] * (n - spaces))
+        print(pattern)
+
+print_pattern()
